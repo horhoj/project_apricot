@@ -1,0 +1,32 @@
+.GridCard {
+  overflow: hidden;
+  width: 128px;
+  height: 175px;
+  position: relative;
+}
+
+.imgCard {
+  aspect-ratio: 1;
+  width: 128px;
+  height: 175px;
+}
+
+.value {
+  position: absolute;
+  display: flex;
+  bottom: 8px;
+  left: 8px;
+  font-size: 13px;
+  font-weight: 590;
+  line-height: 15.51px;
+  letter-spacing: -0.15399999916553497px;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.pushPin {
+  position: absolute;
+  left: 8px;
+  top: 8px;
+}

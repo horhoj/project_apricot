@@ -1,0 +1,63 @@
+.Header {
+  min-height: 56px;
+  display: flex;
+  padding: 10px 16px;
+  justify-content: center;
+  position: relative;
+}
+
+.cancelBtn {
+  position: absolute;
+  left: 16px;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.4300000071525574px;
+  text-align: left;
+  color: var(--color-accent-blue);
+  background-color: var(--bg-color);
+  border: none;
+  height: fit-content;
+}
+
+.optionsBtn {
+  position: absolute;
+  right: 16px;
+  color: var(--color-accent-blue);
+  background-color: var(--bg-color);
+  display: flex;
+  border: 2px solid var(--color-accent-blue);
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  // width: 30px;
+
+  gap: 3px;
+
+  &>span {
+    width: 2px;
+    height: 2px;
+    display: flex;
+    background-color: var(--color-accent-blue);
+  }
+}
+
+.topText {
+  font-size: 17px;
+  font-weight: 590;
+  line-height: 22px;
+  letter-spacing: -0.4300000071525574px;
+  text-align: center;
+
+}
+
+.bottomText {
+  color: var(--second-color);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.07800000160932541px;
+  text-align: center;
+}

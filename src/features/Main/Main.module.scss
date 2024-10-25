@@ -1,0 +1,101 @@
+.Main {
+  display: flex;
+  position: relative;
+  padding: 16px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.forwardArrowBtn {
+  background-color: var(--bg-color);
+  border: none;
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.forwardArrowBtnImg {}
+
+.bigTitle {
+  margin-top: 18px;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 25.06px;
+  text-align: left;
+  color: var(--main-color);
+}
+
+.title {
+  margin-top: 5px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 17.9px;
+  letter-spacing: -0.3199999928474426px;
+  text-align: center;
+  color: var(--second-color);
+}
+
+.infoCardDataList {
+  margin-top: 20px;
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+
+.descriptionMt {
+  margin-top: 20px;
+}
+
+.description {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.51px;
+  letter-spacing: -0.15399999916553497px;
+  text-align: center;
+  color: var(--second-color);
+}
+
+.subscribeWrapper {
+  margin-top: 20px;
+  display: flex;
+  gap: 8px;
+}
+
+.subscribeBtn {
+  background-color: var(--color-accent-primary);
+  border: none;
+  color: var(--main-color);
+  min-width: 279px;
+  height: 44px;
+  border-radius: 8px;
+}
+
+.subscribeCaretDownBtn {
+  background-color: var(--color-foreground-primary);
+  border: none;
+  color: var(--main-color);
+  height: 44px;
+  min-width: 44px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gridCardList {
+  // display: flex;
+  // flex-wrap: wrap;
+  // justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2px;
+  list-style: none;
+  margin: 20px -16px;
+  border-radius: 20px;
+  overflow: hidden;
+  width: fit-content;
+}

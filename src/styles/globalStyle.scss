@@ -1,7 +1,7 @@
 *,
 *::before,
 *::after {
-  font-family: Roboto, sans-serif;
+  font-family: SF Pro Display, sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -25,7 +25,24 @@
   }
 }
 
+:root {
+  --main-color: #FCFCFC;
+  --second-color: rgba(255, 255, 255, 0.6);
+  --bg-app-color: #1e1e1e;
+  --bg-color: #1a1a1a;
+  --color-accent-blue: #007AFF;
+  --color-accent-primary: rgba(0, 152, 235, 1);
+  --color-foreground-primary: rgba(46, 46, 46, 1);
+}
+
 body {
-  // background-color: #272b33;
-  // color: #fff;
+  background-color: var(--bg-app-color);
+  color: var(--main-color);
+}
+
+.container {
+  max-width: 400px;
+  width: 100%;
+
+  background-color: var(--bg-color);
 }
